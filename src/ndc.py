@@ -14,7 +14,7 @@ def handle_args(args):
             print("-c <expression> 计算指定表达式，结果输出到标准输出流")
             print("-h, -help    显示此帮助消息")
             return
-        interactive()
+    interactive()
 
 
 def interactive():
