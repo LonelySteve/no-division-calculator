@@ -13,6 +13,9 @@ def handle_args(args):
         elif args[1] == '-h' or args[1] == '--help':
             print("-c <expression> 计算指定表达式，结果输出到标准输出流")
             print("-h, --help    显示此帮助消息")
+            print()
+            # 打印版权声明
+            print("no-division-calculator Copyright (C) 2019 JLoeve")
             return
     interactive()
 
@@ -20,6 +23,8 @@ def handle_args(args):
 def interactive():
     # 打印欢迎信息
     print("Welcome to the no-division-calculator!")
+    # 打印版权声明
+    print("no-division-calculator Copyright (C) 2019 JLoeve")
     while True:
         try:
             expression = input(">")
