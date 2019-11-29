@@ -12,7 +12,7 @@ def handle_args(args):
                 return
         elif args[1] == '-h' or args[1] == '--help':
             print("-c <expression> 计算指定表达式，结果输出到标准输出流")
-            print("-h, -help    显示此帮助消息")
+            print("-h, --help    显示此帮助消息")
             return
     interactive()
 
